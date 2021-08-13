@@ -8,7 +8,7 @@ import Tasks from './componentes/Tasks'
 import AddTask from './componentes/AddTask'
 
 function App() {
-  const [showAddTask, setShowAddTask]= use State(false);
+  const [showAddTask, setShowAddTask]= useState(false)
 
 const [tasks, setTasks] = useState([
 {
