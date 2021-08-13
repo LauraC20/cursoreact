@@ -60,8 +60,6 @@ const y = !false
 
     {showAddTask && <AddTask onAdd={addTask} />}
 
-    <AddTask onAdd={addTask} />
-
     <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder} />
 
     </div>
